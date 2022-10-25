@@ -242,7 +242,7 @@ footer {
     align-items: center;
 }
 .rivers-card, .camping-card, .rapids-card{
-    margin-top: 200px 0;
+    margin: 200px 0;
 }
 
 .msg {
