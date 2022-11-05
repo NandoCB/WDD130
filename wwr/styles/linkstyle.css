@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #content {
     margin: 0 auto;
     max-width: 1600px;
@@ -307,3 +313,29 @@ footer {
     }
 }
 
+/* Page 2 - styles */
+
+.exp_galery{
+    padding-left: 5rem;
+}
+
+.banner{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.list{
+    width:100%;
+    object-fit: cover;
+    width: 95%;
+    height: 80%;
+    margin-right: 10px;
+    display: block;
+}
+
+.list{
+    display: flex;
+    overflow-y: auto;
+    margin-top: 10px;
+}
