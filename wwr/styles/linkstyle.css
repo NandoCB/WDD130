@@ -315,14 +315,34 @@ footer {
 
 /* Page 2 - styles */
 
-.exp_galery{
-    padding-left: 5rem;
+/**page 2 galery**/
+
+.gallery_text{
+    color: white;
+    text-align: justify;
+    padding: 0 150px;
+}
+.gallery_text h1{
+    text-align: center;
+    padding-top: 10px;
 }
 
-.banner{
+.gallery_text h4{
+    color: white;
+}
+
+.exp_galery{
+    padding-left: 10rem;
+    padding-top: 10px;
+}
+
+.hero{
     width: 100%;
     object-fit: cover;
     display: block;
+    text-align:center;
+    /*margin: 0 auto; */
+    
 }
 
 .list{
@@ -342,10 +362,29 @@ footer {
 }
 
 /**page 2 grid**/
+
+.gallery_text2{
+    text-align: justify;
+    padding: 150px;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.gallery_text2 h2{
+    text-align: center;
+}
+
+.gallery_text2 h4{
+    color: white;
+}
+
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem
+    gap: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
 }
 @media (min-width: 768px){
     .grid{
@@ -358,14 +397,16 @@ footer {
 .products {
     background-color:#1582C1;
     padding: 1rem;
+    text-decoration: none;
 }
 
 .products__imag{
 width: 100%;
+height: 65%;
 }
 
 .products__sport{
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     text-align: center;
 }
 
@@ -390,7 +431,14 @@ width: 100%;
     min-height: 70vh;
     background-color: rgb(13, 197, 136);
     margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     
+}
+
+.p2_cards p{
+    text-align: justify;
+    padding: 20px;
 }
 
 
@@ -437,7 +485,7 @@ box-shadow: 0 5px 10px #000;
     transform: perspective(600px) rotateY(180deg);
     background-color: rgb(3,35,54);
     padding: 15px;
-    padding-bottom: 150px;
+    padding-bottom: 18rem;
     color: #f3f3f3;
     display: flex;
     flex-direction: column;
