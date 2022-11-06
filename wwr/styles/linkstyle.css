@@ -339,3 +339,132 @@ footer {
     overflow-y: auto;
     margin-top: 10px;
 }
+
+/**page 2 grid**/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem
+}
+@media (min-width: 768px){
+    .grid{
+    grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/**activities offered**/
+
+.products {
+    background-color:#1582C1;
+    padding: 1rem;
+}
+
+.products__imag{
+width: 100%;
+}
+
+.products__sport{
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.products__sm{
+    text-align: right;
+    color:#F7F052;
+    
+}
+
+.products__sport
+.products__sm{
+    margin: 1rem 0;
+    line-height: 1.2;
+   
+}
+
+.p2_cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    background-color: rgb(13, 197, 136);
+}
+
+.expCard{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+.expCard .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.expCard .front{
+transform: perspective(600px) rotateY(0deg);
+box-shadow: 0 5px 10px #000;
+}
+
+.expCard .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.expCard .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #ffff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.expCard .back{
+    transform: perspective(600px) rotateY(180deg);
+    background-color: rgb(3,35,54);
+    padding: 15px;
+    padding-bottom: 150px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.expCard .back .p2_link{
+    border-top: solid 1px white;
+    height: 50px;
+    line-height: 50px;
+}
+
+.expCard .back .p2_link a{
+    color: white;
+}
+
+.expCard .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.expCard .back p {
+    letter-spacing: 1px;
+}
+
+.expCard:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.expCard:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
