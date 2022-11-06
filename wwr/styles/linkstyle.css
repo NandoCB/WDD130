@@ -15,6 +15,7 @@ body {
 
 h1, h2, h3, h4, a {
     font-family: roboto;
+    text-decoration: none;
 }
 
 p {
@@ -332,25 +333,28 @@ footer {
 }
 
 .exp_galery{
-    padding-left: 10rem;
+    padding-left: 3rem;
     padding-top: 10px;
 }
-
-.hero{
-    width: 100%;
-    object-fit: cover;
-    display: block;
+/**
+.banner{
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    height: 80%;
+    /*object-fit: cover;
+    display: flex;
     text-align:center;
-    /*margin: 0 auto; */
-    
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
 }
-
+**/
 .list{
     width:100%;
     object-fit: cover;
     width: 95%;
     height: 80%;
-    margin-right: 10px;
     display: block;
 }
 
@@ -379,6 +383,7 @@ footer {
     color: white;
 }
 
+/**activities offered**/
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -391,8 +396,6 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     }
 }
-
-/**activities offered**/
 
 .products {
     background-color:#1582C1;
@@ -408,6 +411,7 @@ height: 65%;
 .products__sport{
     font-size: 2.2rem;
     text-align: center;
+    color: #551A8B;
 }
 
 .products__sm{
@@ -422,6 +426,8 @@ height: 65%;
     line-height: 1.2;
    
 }
+
+/**Experinces Cards**/
 
 .p2_cards{
     display: flex;
