@@ -520,11 +520,3 @@ box-shadow: 0 5px 10px #000;
 .expCard:hover .back{
     transform: perspective(600px) rotateY(360deg);
 }
-
-.expCard a{
-    z-index: 4;
-}
-
-.expCard b{
-    z-index: -3;
-}
