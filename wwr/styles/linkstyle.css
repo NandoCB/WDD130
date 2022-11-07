@@ -206,7 +206,7 @@ color: black;
     padding-bottom: 15px;
 }
 h2 {
-        margin: 0;
+        margin: 15px;
 }
 
 footer a{
@@ -524,4 +524,37 @@ box-shadow: 0 5px 10px #000;
 .difficulty{
     width: 50%;
     margin-bottom: 20px;
+}
+
+.difficulty_img{
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+ .gallery_text{
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 20px;
+ }
+ .list{
+    margin-bottom: 0;
+    margin-left: 0;
+ }
+ .gallery_text2{
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 20px;
+ }
+ .products__sport {
+    font-size: 15px;
+ }
+
+ .products__sm {
+    font-size: 10px;
+ }
+
+ .products__imag {
+    width: 100%;
+ }
+
 }
