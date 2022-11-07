@@ -520,3 +520,8 @@ box-shadow: 0 5px 10px #000;
 .expCard:hover .back{
     transform: perspective(600px) rotateY(360deg);
 }
+
+.difficulty{
+    width: 50%;
+    margin-bottom: 20px;
+}
