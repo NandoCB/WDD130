@@ -12,7 +12,7 @@ body {
     max-width: 1600px;
 }
 
-
+*/
 h1, h2, h3, h4, a {
     font-family: roboto;
     text-decoration: none;
@@ -321,8 +321,8 @@ footer {
 .gallery_text{
     color: white;
     text-align: justify;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 7em;
+    margin-right: 7em;
 }
 .gallery_text h1{
     text-align: center;
@@ -351,18 +351,22 @@ footer {
     overflow-y: auto;
     margin-top: 10px;
     margin-bottom: 2rem;
+    margin-left: 2rem;
 }
 
 /**page 2 grid**/
-
+#hero-img{
+    margin: 0 auto;
+    max-width: 1600px;
+}
 .gallery_text2{
     text-align: justify;
-   /* padding: 150px;*/
     padding-top: 10px;
     color: white;
     padding-bottom: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 7em;
+    margin-right: 7em;
+   
 }
 
 .gallery_text2 h2{
@@ -515,4 +519,12 @@ box-shadow: 0 5px 10px #000;
 
 .expCard:hover .back{
     transform: perspective(600px) rotateY(360deg);
+}
+
+.expCard a{
+    z-index: 4;
+}
+
+.expCard b{
+    z-index: -3;
 }
