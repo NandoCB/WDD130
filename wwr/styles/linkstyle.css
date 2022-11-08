@@ -485,7 +485,7 @@ box-shadow: 0 5px 10px #000;
     transform: perspective(600px) rotateY(180deg);
     background-color: rgb(3,35,54);
     padding: 15px;
-    padding-bottom: 18rem;
+    padding-bottom: 13rem;
     color: #f3f3f3;
     display: flex;
     flex-direction: column;
@@ -504,13 +504,14 @@ box-shadow: 0 5px 10px #000;
 }
 
 .expCard .back h3{
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 20px;
     letter-spacing: 2px;
 }
 
 .expCard .back p {
     letter-spacing: 1px;
+    font-size: 20px;
 }
 
 .expCard:hover .front{
@@ -558,5 +559,30 @@ box-shadow: 0 5px 10px #000;
  .products__imag {
     width: 100%;
  }
+
+ .products:last-child{
+    visibility: hidden;
+ }
+ .p2_cards{
+    margin-top: -7rem;
+    margin-left: 2px;
+    margin-right: 2px;
+ }
+.p2_cards p {
+        
+        font-size: 20px;
+    }
+.p2_cards h2{
+font-size: 30px;
+text-align: center;
+
+}
+
+.expCard{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
 
 }
