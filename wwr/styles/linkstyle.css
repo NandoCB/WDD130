@@ -585,4 +585,9 @@ text-align: center;
     margin: 20px;
 }
 
+.expCard .back p {
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
 }
