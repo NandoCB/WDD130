@@ -539,6 +539,8 @@ box-shadow: 0 5px 10px #000;
  .list{
     margin-bottom: 0;
     margin-left: 0;
+    width: 329px;
+    height: 164px;
  }
  .gallery_text2{
     margin-left: 2px;
@@ -546,11 +548,11 @@ box-shadow: 0 5px 10px #000;
     font-size: 20px;
  }
  .products__sport {
-    font-size: 15px;
+    font-size: 9px;
  }
 
  .products__sm {
-    font-size: 10px;
+    font-size: 8px;
  }
 
  .products__imag {
