@@ -563,31 +563,31 @@ box-shadow: 0 5px 10px #000;
  .products:last-child{
     visibility: hidden;
  }
- .p2_cards{
-    margin-top: -7rem;
-    margin-left: 2px;
-    margin-right: 2px;
- }
-.p2_cards p {
-        
-        font-size: 20px;
+    .p2_cards{
+        margin-top: -7rem;
+        margin-left: 2px;
+        margin-right: 2px;
     }
-.p2_cards h2{
-font-size: 30px;
-text-align: center;
+        .p2_cards p {
+                
+                font-size: 20px;
+            }
+    .p2_cards h2{
+    font-size: 30px;
+    text-align: center;
 
-}
+    }
 
-.expCard{
-    position: relative;
-    width: 250px;
-    height: 250px;
-    margin: 20px;
-}
+    .expCard{
+        position: relative;
+        width: 250px;
+        height: 250px;
+        margin: 20px;
+    }
 
-.expCard .back p {
-    letter-spacing: 1px;
-    font-size: 15px;
-}
+    .expCard .back p {
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
 
 }

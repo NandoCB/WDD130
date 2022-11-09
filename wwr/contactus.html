@@ -10,37 +10,57 @@
 </head>
 <body>
     <div id="content">
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/rafting-loggo.png" alt= "Zion Rafting Logo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="experiences.html">Experiences Galery</a>
-            <a href="contactus.html">Contact Us</a>
-            <a href="site-plan-rafting.html">Site Plan</a>
-        </nav>
-    </header>
-
-
-
-
-
-    <footer>
-        <p>Zion Rafting Club &copy; 2022 - Fernando Cardozo</p>
-        <p><a href="site-plan-rafting.html">Site Plan</a></p>
-        <p><a href="contactus.html">Contact Us</a></p>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img class="icon" src="images/facebook.png" alt="fb icon">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/rafting-loggo.png" alt= "Zion Rafting Logo">
             </a>
-            <a href="https://twitter.com" target="_blank">
-                <img class="icon" src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img class="icon" src="images/instagram.png" alt="instagram icon">
-            </a>
-        </div>
-      
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="experiences.html">Experiences Galery</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+            </nav>
+        </header>
+        <main>
+            
+
+
+        
+        <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23F09300&ctz=America%2FMontevideo&showTitle=0&showCalendars=0&showTabs=1&hl=en&src=NjRmYjlmM2ExNzdiYTYzYjY4OWViNGVlN2ZlMTBkMWYwMWZmMDQ2YjJkZjcwYmVhZGMwNTRjZWIxMWVjMTY2YkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237CB342" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="no"></iframe>
+    </main>
+        <footer>
+            <p>Zion Rafting Club &copy; 2022 - Fernando Cardozo</p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img class="icon" src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img class="icon" src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img class="icon" src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        
         </footer>
+    </div>
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('feedback');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
 </body> 
