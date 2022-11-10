@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/linkstyle.css">
     <link rel="icon" href="images/rafting-logo.ico">
-    <title>Experiences Galery</title>
+    <script src="https://kit.fontawesome.com/a7e174bff5.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
 </head>
 <body>
     <div id="content">
@@ -22,11 +23,42 @@
             </nav>
         </header>
         <main>
-            
+        <section class="contact">
+            <img class="contac_us" src="images/contact-us.png" alt="contac_us">
+            <div id="feedback"></div>
+            <div class="container-form">
+                <div class="info-form">
+                    <h2>Contact Us</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero quasi perferendis nemo inventore vitae suscipit cupiditate consequuntur velit ut, praesentium assumenda animi atque officiis saepe aperiam hic expedita iste corrupti.</p>
+                    <a href="#"> <i class="fa fa-phone" aria-hidden="true"></i> +1 123 - 456 -798</a>
+                    <a href="#"> <i class="fa fa-envelope" aria-hidden="true"></i>hello@zrafting.com</a>
+                    <a href="#"> <i class="fa fa-map-marked" aria-hidden="true"></i>Montevideo, Uruguay</a>
+                    <a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i>Heber J. Grand Park - Highway 66, km 456 exit 6A </a>
+                    <a href="#"> <i class="fa-solid fa-truck-fast" aria-hidden="true"></i> Zip-Code 456/458
+                </div>
 
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                    <li>
+                        <label for="name"></label>
+                        <input type="text" id="name" placeholder="Enter your full name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="mail"></label>
+                        <input type="email" id="mail" placeholder= "Enter your email address" name="user_email" />
+                    </li>
+                    <li>
+                        <label for="msg"></label>
+                        <textarea id="msg"  placeholder="Please enter the message and hit Send" name="user_message"></textarea>
+                    </li>
+                    </ul>
+                    <li class="button">
+                        <button type="submit">Send your message</button>
+                    </li>
+                </form>
+            </div>
+        </section>
 
-        
-        <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23F09300&ctz=America%2FMontevideo&showTitle=0&showCalendars=0&showTabs=1&hl=en&src=NjRmYjlmM2ExNzdiYTYzYjY4OWViNGVlN2ZlMTBkMWYwMWZmMDQ2YjJkZjcwYmVhZGMwNTRjZWIxMWVjMTY2YkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237CB342" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="no"></iframe>
     </main>
         <footer>
             <p>Zion Rafting Club &copy; 2022 - Fernando Cardozo</p>
@@ -56,7 +88,7 @@
             // stop the form from doing the default action.
             e.preventDefault();
             // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            feedbackElement.innerHTML = 'Hello'+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
             // make the feedback element visible.
             feedbackElement.style.display = "block";
             // add a class to move everything down so our message doesn't cover it.
