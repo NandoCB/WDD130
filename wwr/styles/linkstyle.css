@@ -657,9 +657,8 @@ box-shadow: 0 5px 10px #000;
 
 .contact{
     border: 1px solid #ccc;
-    margin-top: 10rem;
+    margin-top: 2rem;
     border-radius: 1em;
-    margin-bottom: 5rem;
 }
 
 form {
@@ -713,7 +712,6 @@ ul {
     padding-left: 90px; 
     list-style: none;
     text-align: center;
-    
     
   }
   
