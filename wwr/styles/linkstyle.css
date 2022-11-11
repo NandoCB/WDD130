@@ -659,6 +659,11 @@ box-shadow: 0 5px 10px #000;
     border-radius: 1em;
 }
 
+.contact_us img{
+    margin-top: 2rem;
+    border-radius: 1em;
+}
+
 form {
    margin: 0 auto;
    width: 400px;
@@ -740,7 +745,10 @@ ul {
 
   @media screen and (max-width: 900px) {
         
-       
+    .contact{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
     
         .container-form{
             margin-left: 3px;
