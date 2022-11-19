@@ -1,5 +1,256 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #E0FBFC;
+    padding-top: 5px;
+}
+
+p{
+    font-family: lato;
+}
+
+h1 h2 h3 h4{
+    font-family: roboto;
+}
+
+#content {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+/**Menu**/
+
+header {
+    background-color: #46A2FD;
+
+}
+.logo__p img {
+    width: 200px;
+    height: 100%;
+    padding: 0;
+}
+
+.container__menu{
+    list-style: none;
+    padding: 0;
+    background: #46A2FD;
+    width: 90%;
+    max-width: 920rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    grid-area: 1 / 2 / 2 / 5;
+
+}
 
 
+.menu__p a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-family: lato;
+}
+
+.menu__p li{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.7rem;
+    
+}
+
+.menu__p a:hover{
+    background: #396E94;
+
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(0, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+}
+
+.top__header{
+    display: grid;
+    grid-area: 1 / 1 / 2 / 2;
+    
+    
+}
+
+.search {
+    display: flex;
+    
+}
+
+.search input {
+    align-self: center;
+    text-align: center;
+    border-style: none;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+}
+
+.img__login{
+    grid-area: 1 / 4 / 2 / 5;
+    width: 35px;
+    height: 35px;
+    align-self: center;
+    
+}
+
+.login{
+    color:white;
+}
+/*End Menu*/
+
+.hero-img{
+    width: 50%;
+    object-fit: cover;
+
+}
+
+
+.hero-img{
+    width:100%;
+    object-fit: cover;
+    width: 50rem;
+    height: 20rem;
+    margin-left: 25rem;
+}
+
+.list img{
+    width:100%;
+    object-fit: cover;
+    width: 30rem;
+    height: 20rem;
+    
+}
+.list{
+    display: flex;
+    overflow-y: auto;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.p1_text{
+    text-align: justify;
+    width: 70%;
+    font-size: 1.2rem;
+    margin-left: 8%;
+}
+
+.p1_text2{
+    font-size: 1.2rem;
+    margin-left: 8%;
+    text-align: justify;
+    margin-right: 8%;
+    
+    
+}
+
+/* video */
+.post{
+    margin-bottom: 2rem;
+    
+}
+  
+  .img__post1{
+      width: 30%;
+      margin-left: 15%;
+      
+  }
+
+  .img__post2{
+    width: 30%;
+    margin-left: 10%;
+
+  }
+
+  .button{
+    background-color: #46A2FD;
+    padding: 10px;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 46rem;
+    font-family: roboto;
+
+  }
+  
+  .post h1{
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .pet_care{
+    text-align: center;
+    
+  }
+
+  .pet_care img{
+    margin: 10px 30px 20px 0;
+    
+  }
+
+  /*footer*/
+
+footer{
+    background: #46A2FD;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    color: white;
+    text-decoration: none;
+    font-family: lato;
+    
+}
+
+footer p{
+    margin-left: 10px;
+}
+
+footer img{
+    margin-left: 10px;
+}
+
+.social .footer-menu{
+    display: flex;
+    float: right;
+   
+}
+
+.social .footer-menu li{
+    display: block;
+    padding-right: 10px;
+}
+
+.social_icon{
+    width: 2%; 
+}
+
+.footer-menu a{
+text-decoration:none;
+color: white
+}
+
+.footer-menu a:hover{
+    color: #396E94;
+  }
+
+@media (max-width:500px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+}
