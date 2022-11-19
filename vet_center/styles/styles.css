@@ -112,6 +112,12 @@ header {
 }
 /*End Menu*/
 
+.heading_title{
+    text-align: center;
+    font-family: lato;
+    color: rgb(73, 74, 170);
+    font-size: 50px;
+}
 .hero-img{
     width: 50%;
     object-fit: cover;
