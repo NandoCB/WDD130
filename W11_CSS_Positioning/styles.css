@@ -1,0 +1,38 @@
+.content{
+    max-width: 1600px;
+}
+section {
+    width: 50%;
+    border: 1px solid;
+  }
+
+.block1{
+    margin-left: 0%;
+}
+
+
+
+.block2{
+    margin-left: 25%;
+}
+
+.block3{
+    margin-left: 50%;
+}
+
+.block4{
+    margin-left: 25%;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.rigth{
+    text-align: right;
+}
+

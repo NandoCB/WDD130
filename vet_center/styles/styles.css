@@ -20,6 +20,14 @@ h1 h2 h3 h4{
     font-family: roboto;
 }
 
+h3{
+    margin-left: 8%;
+}
+
+h2{
+    text-align: center;
+}
+
 #content {
     margin: 0 auto;
     max-width: 1600px;
@@ -118,12 +126,6 @@ header {
     color: rgb(73, 74, 170);
     font-size: 50px;
 }
-.hero-img{
-    width: 50%;
-    object-fit: cover;
-
-}
-
 
 .hero-img{
     width:100%;
@@ -133,27 +135,63 @@ header {
     margin-left: 25rem;
 }
 
-.list img{
-    width:100%;
-    object-fit: cover;
-    width: 30rem;
-    height: 20rem;
-    
+/*Slider*/
+
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin: 10px auto 0;
+	overflow: hidden;
 }
-.list{
-    display: flex;
-    overflow-y: auto;
-    margin-top: 10px;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 450%;
+	
+	animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+
+
+
+/*Slider*/
+
+.p0_text{
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .p1_text{
     text-align: justify;
     width: 70%;
     font-size: 1.2rem;
-    margin-left: 8%;
 }
 
 .p1_text2{
@@ -207,6 +245,10 @@ header {
   .pet_care img{
     margin: 10px 30px 20px 0;
     
+  }
+
+  .animal_img{
+    margin-top: 6rem;
   }
 
   /*footer*/
