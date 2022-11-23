@@ -28,6 +28,16 @@ h2{
     text-align: center;
 }
 
+h1 .heading_title{
+    font-family: seinna-grace;
+    font-size: 100px;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
 #content {
     margin: 0 auto;
     max-width: 1600px;
@@ -138,7 +148,7 @@ header {
 /*Slider*/
 
 .slider-frame {
-	width: 1280px;
+	width: 1200px;
     height: auto;
 	margin: 10px auto 0;
 	overflow: hidden;
