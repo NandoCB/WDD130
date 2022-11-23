@@ -28,12 +28,6 @@ h2{
     text-align: center;
 }
 
-h1 .heading_title{
-    font-family: seinna-grace;
-    font-size: 100px;
-    color:black;
-}
-
 a{
     text-decoration: none;
 }
@@ -142,13 +136,25 @@ header {
     object-fit: cover;
     width: 50rem;
     height: 20rem;
-    margin-left: 25rem;
+    margin-left: 20rem;
+}
+
+.welcome1{
+    background-color: white;
+    padding: 1.5rem ;
+}
+
+.welcome{
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+    
 }
 
 /*Slider*/
 
 .slider-frame {
-	width: 1200px;
+	width: 1284px;
     height: auto;
 	margin: 10px auto 0;
 	overflow: hidden;
@@ -184,9 +190,6 @@ header {
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
-
-
-
 
 
 /*Slider*/
