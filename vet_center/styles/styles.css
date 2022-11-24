@@ -79,7 +79,7 @@ header {
 }
 
 .menu__p a:hover{
-    background: #396E94;
+    color: #396E94;
 
 }
 
@@ -309,7 +309,7 @@ color: white
     color: #396E94;
   }
 
-@media (max-width:500px) {
+@media (max-width:900px) {
     .footer-menu ul{
       display: flex;
       margin-top: 10px;
