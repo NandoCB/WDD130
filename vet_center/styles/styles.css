@@ -10,6 +10,8 @@ body {
 main {
     background-color: #E0FBFC;
     padding-top: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 p{
@@ -241,8 +243,10 @@ header {
     border-radius: 2rem;
     text-decoration: none;
     color: white;
-    margin-left: 46rem;
     font-family: roboto;
+    margin: 0 auto;
+    align-content: center;
+    
 
   }
   
