@@ -317,7 +317,18 @@ color: white
     }
 }
 
+/**
+*Page 2
+*
+*Login page form
+*
+**/
+
 /**Login Image**/
+
+#content_login{
+    max-width: 1600px;
+}
 
 .background_image{
     background-image:url(/vet_center/image/01_img.png);
@@ -327,16 +338,22 @@ color: white
     
 }
 
+.logo__login-page{
+    width: 15rem;
+    display: block;
+    position:absolute;
+}
 .container__all{
     width: 100%;
-    max-width: 800px;
-    margin:auto;
+    max-width: 850px;
+    margin: auto;
     position: relative;
+    margin-top: 47px;
 }
 
 .background__box{
-    width: 100%;
-    padding: 10px 20px;
+    width: 100%; 
+    padding: 30px 20px;
     display: flex;
     justify-content: center;
     backdrop-filter: blur(10px);
@@ -344,7 +361,7 @@ color: white
 }
 
 .background__box div{
-    margin: 100px 40px;
+    margin: 100px 30px;
     color:white;
     transition: all 500ms;
 }
@@ -382,14 +399,14 @@ color: white
     width: 100%;
     max-width: 360px;
     position: relative;
-    top: -185px;
+    top: -200px;
     left: 10px;
     transition: left 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 }
 .cointainer__login-register form{
     width: 100%;
-    padding: 80px 20px;
+    padding: 40px 20px;
     background: rgb(224, 224, 224);
     position: absolute;
     border-radius: 20px;
@@ -398,16 +415,16 @@ color: white
 .cointainer__login-register form h2{
     font-size: 30px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: #46a2fd
 }
 
 .cointainer__login-register form input{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 5px;
     border: none;
-    color: #f2f2f2;
+    color: black;
     font-size: 16px;
     outline: none;
 }
