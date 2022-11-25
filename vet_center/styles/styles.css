@@ -323,6 +323,7 @@ color: white
     background-image:url(/vet_center/image/01_img.png);
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
     
 }
 
