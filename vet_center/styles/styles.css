@@ -274,7 +274,6 @@ footer{
     padding-bottom: 6px;
     color: white;
     text-decoration: none;
-    margin-top: 5rem;
     
 }
 
@@ -318,14 +317,6 @@ color: white
     }
 }
 
-.content_login{
-    max-width: 1600px;
-    position: fixed;
-    top: 0;
-    left:0;
-    background: #fff;
-}
-
 /**Login Image**/
 
 .background_image{
@@ -334,8 +325,8 @@ color: white
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    
 }
-
 
 .container__all{
     width: 100%;
@@ -440,4 +431,8 @@ color: white
 
 .form__register{
     display: none;
-}  
+} 
+
+.footer_login{
+    margin-top: 5rem;
+}
