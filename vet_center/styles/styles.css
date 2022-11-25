@@ -321,8 +321,6 @@ color: white
 
 .background_image{
     background-image:url(/vet_center/image/01_img.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     
