@@ -331,7 +331,7 @@ color: white
 }
 
 .background_image{
-    background:url('/vet_center/image/01_img.png');
+    background:url('../image/01_img.png');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
