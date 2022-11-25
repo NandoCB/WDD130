@@ -7,6 +7,12 @@ body {
     box-sizing: border-box;
 }
 
+/**
+*Page 1
+*
+*Home page
+*
+**/
 .main1 {
     background-color: #E0FBFC;
     padding-top: 5px;
@@ -36,6 +42,7 @@ h3{
 
 a{
     text-decoration: none;
+    font-family: 'Roboto';
 }
 
 #content {
