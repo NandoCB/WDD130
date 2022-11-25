@@ -349,6 +349,7 @@ color: white
     margin: auto;
     position: relative;
     margin-top: 47px;
+    margin-bottom: 75px;
 }
 
 .background__box{
@@ -447,8 +448,4 @@ color: white
 
 .form__register{
     display: none;
-} 
-
-.footer_login{
-    margin-top: 5rem;
 }
