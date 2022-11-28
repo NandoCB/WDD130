@@ -682,7 +682,6 @@ background-color: #E0FBFC;
 
 }
 
-/*Formulario*/
 .form-p3{
     margin-left: 60px;
     margin-top: 2rem;
@@ -705,8 +704,6 @@ background-color: #E0FBFC;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
 }
-
-/*Formulario Prueba*/
 
 form {
     margin: 0 auto;
