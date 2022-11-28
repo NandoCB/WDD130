@@ -55,15 +55,32 @@
                     <h4 class="methods">We leave you all the methods to contact us, if you wish you can also write us any questions through the form below and we will respond as soon as possible.</h4>
                 
                 <div class="form-contac">
-                    <form class="form-p3">
-                        <h2>Leave us your message and we will contact you shortly</h2>
-                        <ul>
-                            <li class="text-p2" type="Name:"><input id="form_p2" placeholder="Enter your name"></li>
-                            <li class="text-p2" type="Email:"><input id="form_p2" placeholder="Enter your email"></li>
-                            <li class="text-p2" type="Message:"><input id="form_p2" placeholder="Enter your message"></li>
-                        </ul>
-                            <button class="butt-p3">Send</button>
-                    </form>
+                    
+                    <div>
+                        <form action="/my-handling-form-page" method="post">
+                            <h2>Leave us your message and we will contact you shortly</h2>
+                            <ul>
+                                <li>
+                                    <label for="name"></label>
+                                    <input type="text" id="name" placeholder="Enter your full name" name="user_name">
+                                </li>
+                                <li>
+                                    <label for="mail"></label>
+                                    <input type="email" id="mail" placeholder= "Enter your email address" name="user_email">
+                                </li>
+                                <li>
+                                    <label for="msg"></label>
+                                    <textarea id="msg"  placeholder="Please enter the message and hit Send" name="user_message"></textarea>
+                                </li>
+                            
+                                <li class="button_cont">
+                                    <button type="submit">Send your message</button>
+                                </li>
+                            </ul>
+                        </form>
+
+
+                    </div>
 
                     
 
