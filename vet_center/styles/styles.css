@@ -368,6 +368,10 @@ color: white
 
 /**Login Image**/
 
+#content_login{
+    max-width: 1600PX;
+}
+
 .background_image{
     background:url('../image/01_img.png');
     background-position: center;
