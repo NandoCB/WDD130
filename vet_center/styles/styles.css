@@ -630,6 +630,8 @@ background-color: #E0FBFC;
    
 }
 
+/*Query PAge 2*/
+
 @media screen and (min-width: 700px) {
     
     .card-wrapper{
@@ -659,7 +661,6 @@ background-color: #E0FBFC;
 
 }
 
-
 /**
 *Page 3
 *
@@ -679,15 +680,12 @@ background-color: #E0FBFC;
 
 .info-form{
     width: 100%;
-    max-width: 1100px;
     margin: auto;
     margin-top: 90px;
-    grid-gap: 50px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
     
     
 }
+
 
 .info-form h1{
     margin-bottom: 15px;
@@ -707,26 +705,31 @@ background-color: #E0FBFC;
     color: #000;
     font-weight: 700;
     cursor: default;
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    display: block;
+    
 }
+    
+.contac_media1{
+    
+    margin-right: 50px;
+    
+}  
+
+
 
 .contac_media{
     width: 50px;
-    display: flex;
     margin-top: 10px;
-    margin-left: 5rem; 
+    margin-right: 50px;
+    display: block;
+   
 }
-
 
 .contac_media a{
     font-size: 15px;
 }
 
 .man{
-    width: 210px;
+    width: 185px;
 }
 
 .methods{
@@ -738,10 +741,7 @@ background-color: #E0FBFC;
 
 .form-p3{
     margin-left: 60px;
-    margin-top: 2rem;
-    
-    
-    
+    margin-top: 2rem;   
 }
 
 .form-contac{
@@ -849,14 +849,41 @@ form {
         margin-left: 75rem;
     }
     
+  /*Media Query P3*/  
+    
+    
     @media (max-width: 750px) {
-        .man {
-            width: 110px;
-        }
+        
+       /*men - text*/ 
 
+       .info-form{
+        width: 100%;
+        max-width: 900px;
+        margin: auto;
+        margin-top: 90px;
+        grid-gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .info-form a{
+        font-size: 16px;
+        text-decoration: none;
+        color: #000;
+        font-weight: 700;
+        cursor: default;
+    }
+
+    .contac_media{
+        width: 30px;
+        margin-top: 10px;
+        display: block;
+       
+    }  
+  
         .faq{
             width: 15%;
-            margin-left: 85%;
+            margin-left: 80%;
         }
 
         .form-contac{
@@ -876,6 +903,10 @@ form {
             
         }
 
+        .man{
+            width: 150px;
+        }
+
         input, textarea {
             font: 1em sans-serif;
             width: 78%;
@@ -890,7 +921,7 @@ form {
         }
 
         .form-contac h2{
-            font-size: 15px;
+            font-size: 14px;
             text-align: justify;
         }
 
@@ -910,4 +941,7 @@ form {
        
     
     }
+
+
+    
     
