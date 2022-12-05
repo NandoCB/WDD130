@@ -103,13 +103,13 @@ header {
 .top__header{
     display: grid;
     grid-area: 1 / 1 / 2 / 2;
-    
-    
+
+
 }
 
 .search {
     display: flex;
-    
+        
 }
 
 .search input {
